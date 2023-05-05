@@ -2,6 +2,7 @@ package it.devlec;
 
 import it.devlec.csv.EsempioCSV;
 import it.devlec.excel.EsempioExcel;
+import it.devlec.exceltopdf.ExcelToPdf;
 import it.devlec.json.EsempioJSON;
 import it.devlec.log.EsempioLog;
 import it.devlec.pdf.EsempioPDF;
@@ -30,5 +31,8 @@ public class EsercitazioneJavaMain {
         EsempioJSON esempioJSON = new EsempioJSON();
         esempioJSON.esempioJSONOggetto();
         esempioJSON.esempioJSONArray();
+
+        ExcelToPdf excelToPdf = new ExcelToPdf();
+        excelToPdf.excelToPdfTransformer();
     }
 }
